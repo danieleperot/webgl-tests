@@ -28,6 +28,7 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.9.5",
+    "@types/gl-matrix": "^2.4.5",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
@@ -46,10 +47,12 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
+    "webpack-glsl-loader": "^1.0.1",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
-    "core-js": "^3.6.5"
+    "core-js": "^3.6.5",
+    "gl-matrix": "^3.3.0"
   }
 }

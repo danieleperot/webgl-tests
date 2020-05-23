@@ -39,6 +39,10 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
+        test: /\.glsl$/,
+        loader: 'webpack-glsl-loader'
+      },
+      {
         test: /\.mjs$/,
         include: /node_modules/,
         type: 'javascript/auto'
