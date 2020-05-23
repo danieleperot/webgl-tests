@@ -4,7 +4,7 @@ import '../styles/index.scss'
  * My main function
  */
 function main() {
-  const canvas = document.querySelector('#glCanvas')
+  const canvas : HTMLCanvasElement = document.querySelector('#glCanvas')
   const gl = canvas.getContext('webgl')
 
   if (gl === null) {
